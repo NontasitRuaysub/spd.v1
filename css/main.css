@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Athiti', sans-serif;
+}
+/* Class for bg-color */
+.color-bg {
+    background-color: #FFF8EE;
+}
+/* Announcement Section */
+.annoucement-blog {
+    background-color: #F26938;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+}
+/* Carousel Section */
+#header-carousel {
+    position: relative;
+}
+#header-carousel .owl-dots {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+}
+/* header-group Section */
+.header-group {
+    background-color: #F8DAB3;
+    color: #F26938;
+}
+.header-group-text {
+    padding: 0 120px;
+}
+.header-group-text h3 {
+    color: #F26938;
+}
+.header-group-text p {
+    font-size: 25px;
+}
+.header-group :nth-of-type(2) {
+    border-left: 5px solid #F26938;
+    border-right: 5px solid #F26938;
+}
+/* Product Categories Section */
+.pc-text {
+    color: #F26938;
+}
+/* Promotions Section */
+.view-all-promo {
+    color: #F26938;
+}
+/* Line Section */
+#line-section .line-button, .best-sell-button, .promo-detail-button, .article-button {
+    background-color: #F26938;
+    color: #fff;
+}
+.line-detail {
+    padding: 0 50px;
+}
+/* Best Selling Section */
+.view-all-button {
+    text-align: center;
+    margin: 100px auto 0;
+}
+/* Contact Tagline */
+#contact-tagline, #cta-section {
+    background-color: #F8DAB3;
+}
+#contact-tagline p, #cta-section p {
+    color: #F26938;
+}
+/* Promotion annoucement Section */
+.promo-announce-detail {
+    padding: 0 60px;
+}
+/* Grooming Section */
+#grooming-service {
+    background-color: #666666;
+    background-image: url("images/grooming-img/grooming-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+    padding: 200px;
+}
+/* Review Section */
+#review-section {
+    font-size: 30px;
+}
+/* cta Section */
+.cta-detail {
+    padding: 0 80px;
+}
+/* footer */
+footer {
+    padding: 50px 0;
+}
+footer, nav a {
+    background-color: #F26938;
+    color: #fff;
+    font-size: 20px;
+}
+footer nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer .copyright {
+    border-top: 1px solid white;
+    text-align: right;
+    padding: 50px 0;
+}
